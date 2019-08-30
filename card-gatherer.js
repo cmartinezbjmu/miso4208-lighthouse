@@ -6,7 +6,7 @@ class TimeToCard extends Gatherer {
     afterPass(options) {
         const driver = options.driver;
 
-        return driver.evaluateAsync('window.cardLoadTime')
+        return driver.evaluateAsync('window.FirstGetAPI')
             .then(cardLoadTime => {
                 if (!cardLoadTime) {
 

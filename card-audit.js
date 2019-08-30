@@ -9,8 +9,8 @@ class LoadAudit extends Audit {
         return {
             category: 'MyPerformance',
             name: 'card-audit',
-            description: 'Schedule card initialized and ready',
-            failureDescription: 'Schedule Card slow to initialize',
+            description: 'Test for first API GET',
+            failureDescription: 'Fail first GET API',
             helpText: 'Used to measure time from navigationStart to when the schedule' +
             ' card is shown.',
 
